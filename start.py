@@ -13,6 +13,7 @@ for player in players:
     print(player.name)
 running = True
 
+GPIO.setup(2, GPIO.OUT)
 print("An")
 GPIO.output(2, GPIO.HIGH)
 time.sleep(3)
