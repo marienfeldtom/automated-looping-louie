@@ -7,4 +7,4 @@ def makeDrink(player, drink):
 
 
 def openVentil(ventil, time):
-    print("Ventil " + ventil + " wird für " + time + "Sekunden geoeffnet")
+    print("Ventil " + ventil + " wird fuer " + time + "Sekunden geoeffnet")
