@@ -15,7 +15,8 @@ running = True
 
 GPIO.setup(20, GPIO.OUT)
 print("An")
-GPIO.output(20, GPIO.HIGH)
+while True:
+    GPIO.output(20, GPIO.HIGH)
 #time.sleep(3)
 #print("Aus")
 #GPIO.output(20, GPIO.LOW)
