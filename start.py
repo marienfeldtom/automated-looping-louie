@@ -13,11 +13,11 @@ for player in players:
     print(player.name)
 running = True
 
-GPIO.setup(21, GPIO.OUT)
+GPIO.setup(20, GPIO.OUT)
 print("An")
-GPIO.output(21, GPIO.HIGH)
-#time.sleep(3)
-#print("Aus")
-#GPIO.output(21, GPIO.LOW)
+GPIO.output(20, GPIO.HIGH)
+time.sleep(3)
+print("Aus")
+GPIO.output(20, GPIO.LOW)
 print("Fertig")
 GPIO.cleanup()
